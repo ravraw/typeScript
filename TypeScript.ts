@@ -16,6 +16,8 @@ let pets2: Array<string> = ["pig", "lion", "dragon"];
 let basket: [string, number];
 basket = ["basketball", 10];
 
+const myArr :[string,number,boolean] = ["arr",1,true];
+
 //Enum
 enum Size {
   Small = 1,

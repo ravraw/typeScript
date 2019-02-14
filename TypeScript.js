@@ -11,6 +11,7 @@ var pets2 = ["pig", "lion", "dragon"];
 //Tuple
 var basket;
 basket = ["basketball", 10];
+var myArr = ["arr", 1, true];
 //Enum
 var Size;
 (function (Size) {
