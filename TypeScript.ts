@@ -77,7 +77,7 @@ let fightRobotArmy2F = (robots: {
   console.log("FIGHT!");
 };
 
-const addAll = (...args:number[])=>{
+const addAll = (...args:number[]):number=>{
 return args.reduce((acc,cur)=>{
   return acc + cur
 });
