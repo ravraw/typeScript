@@ -77,6 +77,14 @@ let fightRobotArmy2F = (robots: {
   console.log("FIGHT!");
 };
 
+const addAll = (...args:number[])=>{
+return args.reduce((acc,cur)=>{
+  return acc + cur
+});
+}
+
+console.table(addAll(1,2,3,4,5,6,7,8,9,0))
+
 // *** Classes
 class Animal {
   private sing: string;
