@@ -1,2 +1,3 @@
 "use strict";
-alert("Hello world!!");
+// String
+var name = "ravraw";
