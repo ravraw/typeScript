@@ -32,3 +32,16 @@ Blue
 
 let myColor :Colors=Colors.Blue;
 console.log(myColor);
+
+// functions
+function multiply(num1:number,num2:number):number{
+  return num1 * num2;
+}
+function add(num1:string,num2:string):string{
+  return num1 + num2;
+}
+
+// function defenation
+let someFunction :(arg1:number,arg2:number)=> number;
+someFunction = multiply;
+//someFunction=add; // error -- function defination doesn not match
