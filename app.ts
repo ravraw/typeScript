@@ -45,3 +45,15 @@ function add(num1:string,num2:string):string{
 let someFunction :(arg1:number,arg2:number)=> number;
 someFunction = multiply;
 //someFunction=add; // error -- function defination doesn not match
+
+// Objects
+
+let myObj:{name:string,age:string}= {
+  name:"rav",
+  age:"30"
+}
+
+// myObj={
+//   fullName:"ravraw", // throws error wrong type
+//   age:"30"
+// }
