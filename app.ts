@@ -75,3 +75,7 @@ let complex2: complex = {
     return [1]
   }
 };
+
+// union types
+let someNumber: string | number | true = 13;
+someNumber ="five";
