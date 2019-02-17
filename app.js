@@ -26,3 +26,49 @@ var Colors;
 })(Colors || (Colors = {}));
 var myColor = Colors.Blue;
 console.log(myColor);
+// functions
+function multiply(num1, num2) {
+    return num1 * num2;
+}
+function add(num1, num2) {
+    return num1 + num2;
+}
+// function defenation
+var someFunction;
+someFunction = multiply;
+//someFunction=add; // error -- function defination doesn not match
+// Objects
+var myObj = {
+    name: "rav",
+    age: "30"
+};
+var complex1 = {
+    data: [1, 2, 3],
+    output: function (all) {
+        return this.data;
+    }
+};
+var complex2 = {
+    data: [1],
+    output: function (all) {
+        return [1];
+    }
+};
+// union types
+var someNumber = 13;
+someNumber = "five";
+// checking types 
+var finalValue = 12;
+if (typeof finalValue == "number") {
+    console.log("Final value is a number");
+}
+else {
+    console.log("Not a number");
+}
+// never
+function neverReturn() {
+    throw new Error('An error!');
+}
+// nullable types
+var canBeNull = 12;
+canBeNull = null;

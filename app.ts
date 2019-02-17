@@ -79,3 +79,21 @@ let complex2: complex = {
 // union types
 let someNumber: string | number | true = 13;
 someNumber ="five";
+
+// checking types 
+
+let finalValue = 12;
+if(typeof finalValue == "number"){
+  console.log("Final value is a number")
+}else{
+  console.log("Not a number")
+}
+
+// never
+function neverReturn(): never {
+  throw new Error('An error!');
+}
+
+// nullable types
+let canBeNull: number | null= 12;
+canBeNull = null;
