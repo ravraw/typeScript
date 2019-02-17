@@ -57,3 +57,21 @@ let myObj:{name:string,age:string}= {
 //   fullName:"ravraw", // throws error wrong type
 //   age:"30"
 // }
+
+// custom types
+
+// create reusable type defination
+type complex = {data:number[],output:(all:boolean)=>number[]}
+
+let complex1:complex = {
+  data:[1,2,3],
+  output:function(all:boolean){
+    return this.data
+  }
+}
+let complex2: complex = {
+  data: [1],
+  output: function(all: boolean) {
+    return [1]
+  }
+};
