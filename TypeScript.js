@@ -78,3 +78,4 @@ var x = 3;
 // automatimally detexts x is a number.
 //Union Type
 var confused = "hello";
+//# sourceMappingURL=TypeScript.js.map
